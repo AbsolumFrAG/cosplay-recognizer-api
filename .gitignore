@@ -1,0 +1,118 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Environnements virtuels
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE et éditeurs
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs et bases de données
+*.log
+*.sqlite
+logs/
+*.db
+
+# Docker
+.docker/
+docker-compose.override.yml
+*.env
+
+# Fichiers de configuration locaux
+config.local.yml
+*.local.json
+
+# Fichiers temporaires
+tmp/
+temp/
+.tmp/
+*.tmp
+*.bak
+*.swp
+
+# Fichiers de test et coverage
+.coverage
+htmlcov/
+.tox/
+.nox/
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Distribution / packaging
+.Python
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Documentation générée
+docs/_build/
+site/
+
+# Fichiers spécifiques au système
+Thumbs.db
+.DS_Store
+*.swp
+*.bak
+*~
+Desktop.ini
+
+# Fichiers de déploiement
+*.pem
+*.key
+*.crt
+*.cer
+*.der
+*.priv
+
+# Fichiers de dépendances
+pip-log.txt
+pip-delete-this-directory.txt

@@ -1,0 +1,14 @@
+dataset/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+*.log
+.git/
+.gitignore
+Dockerfile
+docker-compose.yml
