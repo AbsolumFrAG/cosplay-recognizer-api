@@ -6,12 +6,9 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 import io
 from PIL import Image
-import tensorflow as tf
 import numpy as np
 import logging
 from keras.api.models import load_model
-from keras.api.utils import img_to_array
-from keras.api.applications.mobilenet_v3 import preprocess_input
 from model import ModernCosplayClassifier
 
 logging.basicConfig(level=logging.INFO)
